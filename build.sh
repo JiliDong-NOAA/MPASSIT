@@ -14,10 +14,10 @@ if [[ "$target" == "linux.*" || "$target" == "macosx.*" ]]; then
     set -x
 else
     set +x
-    source ./machine-setup.sh
-    module use ./modulefiles
-    module load build.$target.$compiler.lua
-    module list
+#    source ./machine-setup.sh
+#    module use ./modulefiles
+#    module load build.$target.$compiler.lua
+#    module list
     set -x
 fi
 
