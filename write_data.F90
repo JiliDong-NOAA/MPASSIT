@@ -1405,7 +1405,7 @@ mask=1
     do j = 1,ny_in
       do i = 1,nx_in
         if (mask(i,j) == 0) then
-             print *,'jdong ',i,j
+!             print *,'jdong ',i,j
              array_in(i,j)=missing_value_r8 
         end if
       end do
